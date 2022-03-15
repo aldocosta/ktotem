@@ -1,0 +1,81 @@
+<div class="bloco p-5 d-flex flex-column vh-100">
+  <div class="d-flex border border-5 border-white p-2 h-25 justify-content-end">
+    <span class="fw-medium fst-normal fs-1 text-white"
+      >Transforme seu futuro</span
+    >
+  </div>
+  <div
+    class="d-flex flex-column justify-content-between border border-5 border-white p-2 h-75"
+  >
+    <div class="d-flex flex-column p-3">
+      <div
+        onclick="document.getElementById('radioPagamentos').checked = true;"
+        class="p-5 fs-2 m-3 my-4 btn-servico form-check text-reset text-decoration-none shadow"
+      >
+        <input
+          class="form-check-input ms-3"
+          type="radio"
+          name="flexRadio"
+          id="radioPagamentos"
+        />
+        <label class="ms-5 fw-bold form-check-label" for="radioPagamentos"
+          >PAGAMENTOS</label
+        >
+      </div>
+      <div
+        onclick="document.getElementById('radioInfoCurso').checked = true;"
+        class="p-5 fs-2 m-3 my-4 btn-servico form-check text-reset text-decoration-none shadow"
+      >
+        <input
+          class="form-check-input ms-3"
+          type="radio"
+          name="flexRadio"
+          id="radioInfoCurso"
+        />
+        <label class="ms-5 fw-bold form-check-label" for="radioInfoCurso">
+          INFORMAÇÕES SOBRE O SEU CURSO
+        </label>
+      </div>
+      <div
+        onclick=" document.getElementById('radioSolicitarDoc').checked = true; window.location='/solicitar-documentos';"
+        class="p-5 fs-2 m-3 my-4 btn-servico form-check text-reset text-decoration-none shadow"
+      >
+        <input
+          class="form-check-input ms-3"
+          type="radio"
+          name="flexRadio"
+          id="radioSolicitarDoc"
+        />
+        <label class="ms-5 fw-bold form-check-label" for="radioSolicitarDoc">
+          SOLICITAR DOCUMENTOS
+        </label>
+      </div>
+      <div
+        onclick="document.getElementById('radioOutrosAssuntos').checked = true;"
+        class="p-5 fs-2 m-3 my-4 btn-servico form-check text-reset text-decoration-none shadow"
+      >
+        <input
+          class="form-check-input ms-3"
+          type="radio"
+          name="flexRadio"
+          id="radioOutrosAssuntos"
+        />
+        <label class="ms-5 fw-bold form-check-label" for="radioOutrosAssuntos">
+          OUTROS ASSUNTOS
+        </label>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="m-3 encerrar align-self-start btn fs-2 btn-secondary"
+    >
+      Encerrar Sessão
+    </button>
+  </div>
+  <footer
+    class="d-flex justify-content-between fixed-bottom p-1 justify-content-end fs-3"
+  >
+    <span>Central de Atendimento: 3003-4030</span>
+    <span>Segunda a Sexta-Feira, das 8h às 20h</span>
+  </footer>
+</div>

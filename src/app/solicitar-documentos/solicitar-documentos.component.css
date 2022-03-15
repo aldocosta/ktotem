@@ -1,0 +1,37 @@
+.bloco > div:first-child {
+  background-color: #ddd;
+}
+.bloco > div:nth-child(2) {
+  background-color: #eee;
+}
+.btn-documento {
+  height: 100px;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+}
+[type="radio"] {
+  opacity: 0;
+}
+[type="radio"] + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+[type="radio"] + label::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: -38px;
+  left: -120px;
+  border: 0.8px solid #000000;
+  border-radius: 100%;
+}
+[type="radio"]:checked + label::before {
+  background-color: var(--roxo1);
+  -webkit-box-shadow: inset 24px 19px 25px 6px rgba(0, 0, 0, 0.18);
+  box-shadow: inset 24px 19px 25px 6px rgba(0, 0, 0, 0.18);
+  transition: 0.5s;
+}

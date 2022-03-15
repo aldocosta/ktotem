@@ -1,0 +1,14 @@
+.btn {
+  border-radius: 30px;
+  font-size: 36px;
+  margin: 12px;
+}
+.btn:first-child {
+  background-color: var(--roxo1);
+}
+.btn:nth-child(2) {
+  background-color: var(--roxo2);
+}
+.btn:last-child {
+  background-color: var(--roxo3);
+}

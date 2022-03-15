@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --roxo1: #9a2dff;
+  --roxo2: #6500c9;
+  --roxo3: #48008b;
+}
+@font-face {
+  /* Normal */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-Book.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  /* Medium */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  /* Medium */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-MediumIta.otf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  /* Bold */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  /* Italic */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-BookIta.otf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  /* Bold & Italic */
+  font-family: "Gotham";
+  src: url(./assets/fonts/Gotham_Family/Gotham-BoldIta.otf);
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 700;
+}
+
+* {
+  font-family: "Gotham";
+}
+
+.encerrar {
+  border-radius: 20px;
+  color: white;
+}

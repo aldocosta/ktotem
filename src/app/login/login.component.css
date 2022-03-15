@@ -1,0 +1,7 @@
+.btn {
+  border-radius: 20px;
+  color: white;
+}
+.btn-roxo {
+  background-color: var(--roxo1);
+}

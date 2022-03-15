@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4b54b0c4-adee-413c-b6df-c43b1c62811b/resourceGroups/DefaultResourceGroup-CUS/providers/Microsoft.Web/sites/ktotem",
+    "appService.deploySubpath": "."
+}
